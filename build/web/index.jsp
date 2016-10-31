@@ -6,5 +6,8 @@
     </head>
     <body>
         <h1>JAVA GEOFENCE PROJECT</h1>
+        <%
+out.println("Your IP address is " + request.getRemoteAddr());
+%>
     </body>
 </html>
